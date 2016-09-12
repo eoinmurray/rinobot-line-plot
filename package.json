@@ -3,6 +3,7 @@
   "engine": "python3",
   "name": "rinobot-plugin-line-plot",
   "description": "Makes an interactive line plot of xy or xyyy data",
+  "template": "--xmin=2 --xmax=5 --ymin=1 --ymax=90",
   "version": "0.1.0",
   "author": "eoin murray",
   "license": "MIT",
