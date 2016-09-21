@@ -7,8 +7,26 @@
   "version": "0.2.0",
   "author": "eoin murray",
   "license": "MIT",
+  "options": {
+    "xmin": {
+      "type": "float",
+      "description": "Specify minimum x value for the graph."
+    },
+    "xmax": {
+      "type": "float",
+      "description": "Specify maximum x value for the graph."
+    },
+    "ymin": {
+      "type": "float",
+      "description": "Specify minimum y value for the graph."
+    },
+    "ymax": {
+      "type": "float",
+      "description": "Specify maximum y value for the graph."
+    },
+  },
   "scripts": {
-    "postinstall": "pip install rinobot_plugin --upgrade"
+    "postinstall": "pip install rinobot-plugin --upgrade"
   },
   "repository": "https://github.com/rinocloud/rinobot-plugin-line-plot.git",
   "keywords": [
