@@ -23,13 +23,11 @@ This plugin will make a png called `data-line-plot.png`:
 <img src="examples/xyyy-line-plot.png" width="600">
 
 
-## Arguments:
+## Options:
 
 In the extra args section of the rinobot automation config you can set the following parameters
 
-Extra args:
-```
---xmin=2 --xmax=5 --ymin=1 --ymax=90
-```
-
-You can set all or none of these parameters.
+xmin: the minimum value of the x axis
+xmax: the max value of the x axis
+ymin: the minimum value of the y axis
+ymax: the max value of the y axis
