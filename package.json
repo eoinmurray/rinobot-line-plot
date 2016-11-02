@@ -23,7 +23,7 @@
     "ymax": {
       "type": "float",
       "description": "Specify maximum y value for the graph."
-    },
+    }
   },
   "scripts": {
     "postinstall": "pip install rinobot-plugin --upgrade"
