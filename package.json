@@ -3,7 +3,7 @@
   "engine": "python3",
   "name": "rinobot-plugin-line-plot",
   "description": "Makes a line plot of xy or xyyy data",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "eoin murray",
   "license": "MIT",
   "options": {
