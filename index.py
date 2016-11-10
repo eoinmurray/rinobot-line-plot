@@ -16,9 +16,16 @@ def main():
     xmax = bot.get_arg('xmax', type=float)
     ymin = bot.get_arg('ymin', type=float)
     ymax = bot.get_arg('ymax', type=float)
+    xlabel = bot.get_arg('xlabel', type=str)
+    ylabel = bot.get_arg('ylabel', type=str)
 
     plt.xlim([xmin, xmax])
     plt.ylim([ymin, ymax])
+
+    if xlabel:
+        plt.xlabel(xlabel)
+    if ylabel:
+        plt.ylabel(ylabel)
 
     outname = bot.no_extension() + '-line-plot.png'
     outpath = bot.output_filepath(outname)
