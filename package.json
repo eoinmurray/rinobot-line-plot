@@ -4,7 +4,7 @@
   "name": "rinobot-plugin-line-plot",
   "description": "Makes an interactive line plot of xy or xyyy data",
   "template": "--xmin=2 --xmax=5 --ymin=1 --ymax=90",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "eoin murray",
   "license": "MIT",
   "options": {
