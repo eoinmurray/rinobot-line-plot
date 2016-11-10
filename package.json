@@ -2,8 +2,7 @@
   "main": "index.py",
   "engine": "python3",
   "name": "rinobot-plugin-line-plot",
-  "description": "Makes an interactive line plot of xy or xyyy data",
-  "template": "--xmin=2 --xmax=5 --ymin=1 --ymax=90",
+  "description": "Makes a line plot of xy or xyyy data",
   "version": "0.2.2",
   "author": "eoin murray",
   "license": "MIT",
@@ -23,6 +22,14 @@
     "ymax": {
       "type": "float",
       "description": "Specify maximum y value for the graph."
+    },
+    "xlabel": {
+      "type": "string",
+      "description": "The label for the x axis"
+    },
+    "ylabel": {
+      "type": "string",
+      "description": "The label for the y axis"
     }
   },
   "scripts": {
